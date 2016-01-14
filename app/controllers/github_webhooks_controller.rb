@@ -5,7 +5,7 @@ class GithubWebhooksController < ApplicationController
 
     def push(payload)
       # TODO: handle push webhook
-      puts '****************************************************', payload.inspect
+      puts '*****************************************************', payload.inspect
     end
 
     def webhook_secret(payload)
