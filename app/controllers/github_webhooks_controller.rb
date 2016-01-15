@@ -4,7 +4,11 @@
 
     def push(payload)
       # TODO: handle push webhook
-      puts '*****************************************************', payload.inspect
+      puts '*************************************push****************', payload.inspect
+    end
+
+    def commit_comment(payload)
+      puts '**************************************CommitComment***************', payload.inspect
     end
 
     def webhook_secret(payload)
