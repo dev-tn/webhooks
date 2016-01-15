@@ -1,4 +1,3 @@
-class GithubWebhooksController < ApplicationController
   # app/controllers/github_webhooks_controller.rb
   class GithubWebhooksController < ActionController::Base
     include GithubWebhook::Processor
@@ -12,4 +11,3 @@ class GithubWebhooksController < ApplicationController
       ENV['a_gr34t_s3cr3t']
     end
   end
-end
