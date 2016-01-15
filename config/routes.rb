@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   #   get 'products/:id' => 'catalog#view'
   post 'payload' => 'hooks#payload'
   resource :github_webhooks, only: :create, defaults: { formats: :json }
+  get 'test' => 'github_integration_settings#test'
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
 
