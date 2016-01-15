@@ -38,4 +38,5 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+  ENV['GITHUB_WEBHOOK_SECRET'] = '3c4190c02ae78bae5f41178f9437a1e778829b1a'
 end

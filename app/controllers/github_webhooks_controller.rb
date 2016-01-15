@@ -8,6 +8,6 @@
     end
 
     def webhook_secret(payload)
-      ENV['3c4190c02ae78bae5f41178f9437a1e778829b1a']
+      ENV['GITHUB_WEBHOOK_SECRET']
     end
   end
