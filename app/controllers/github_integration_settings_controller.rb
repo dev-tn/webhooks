@@ -3,7 +3,7 @@ class GithubIntegrationSettingsController < ApplicationController
     # gh = Ghee.basic_auth("muhammad-ateek", "ateeq4ateeq")
    # puts '***********************REPOSS', gh.user.repos[0]["name"]
     gh = Github.new basic_auth: 'muhammad-ateek:ateeq4ateeq'
-   # puts  Github.repos.hooks user: 'muhammad-ateek'
+   # p#uts  Github.repos.hooks user: 'muhammad-ateek'
 
     # github = Github.new
       gh.repos.hooks.create 'muhammad-ateek', 'webhooks',
@@ -13,7 +13,7 @@ class GithubIntegrationSettingsController < ApplicationController
           url: "http://something.com/webhook",
           secret: "xyz"
         }
-
+####################################################
 
     # repos = Github::Client::Repos.new
     # repos.hooks user: 'muhammad-ateek', repo: 'webhook' do |branch|
