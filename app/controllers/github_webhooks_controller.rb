@@ -8,7 +8,7 @@
     end
 
     def commit_comment(payload)
-      puts '*****************************************CommitComment***************', payload.inspect
+      puts '******************************************CommitComment***************', payload.inspect
     end
 
     def webhook_secret(payload)
