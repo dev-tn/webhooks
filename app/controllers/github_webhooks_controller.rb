@@ -5,7 +5,7 @@
     def push(payload)
       # TODO: handle push webhook
       puts '******************************************push payload****************', payload.inspect
-      puts '*************************************************((**************************push resquest****************', request.inspect
+      puts '****************************************************((**************************push resquest****************', request.inspect
     end
 
     def commit_comment(payload)
